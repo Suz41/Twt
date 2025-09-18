@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme Post</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body class="bg-black text-white flex flex-col justify-start items-center font-sans min-h-screen pt-12">
+    <div class="container max-w-sm w-full mx-auto px-4">
+
+        <!-- Profile Section -->
+        <div class="profile flex items-center mb-4">
+            <img src="https://placehold.co/40x40/FF0000/ffffff?text=KF" alt="Profile Picture" class="profile-img w-10 h-10 rounded-lg mr-3">
+            <span class="username font-bold text-0.5xl">Konkani Feels</span>
+        </div>
+
+        <!-- Meme Text -->
+        <p class="meme-text font-semibold  text-1xl leading-relaxed mb-4">
+            udaasi khatam karne ke chakkar mein mere paise kharch ho jaate hain
+        </p>
+
+    </div>
+</body>
+
+</html>
+
